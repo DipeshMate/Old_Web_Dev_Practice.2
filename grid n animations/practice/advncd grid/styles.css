@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* #head{ grid-area: hd;
+
+} 
+#sidebar{
+    grid-area: side;
+}
+#content{
+    grid-area: main;
+}
+#footcontent{
+    grid-area: ft;
+}  */
+.container{
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid red;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+
+ 
+}
+.box{
+    background-color: aqua;
+    border: 1px solid green;
+}

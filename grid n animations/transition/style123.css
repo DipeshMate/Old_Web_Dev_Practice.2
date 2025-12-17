@@ -1,0 +1,41 @@
+.container{
+    height: 700px;
+    width: 500px;
+    border: 1px solid red;
+    background-color:green;
+    display: flex;
+}
+
+.box{
+    background-color: aqua;
+    border: 2px solid orange;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+
+    /* //animations */
+animation-name: Dipesh;
+animation-duration: 3s;
+animation-timing-function: ease-in;
+animation-iteration-count: 4;
+
+}
+    @keyframes Dipesh {
+        from{
+            width: 212px;
+        }
+
+        to{
+           width: 500px;
+        }
+    }
+
+    /* transition: transform 1s ease-out;
+}
+
+.box:hover{
+    /* background-color: brown;
+    transform: rotate(90deg); */
+    /* transform: scale(2) translatex(500px) rotate(360deg);
+} 
+
