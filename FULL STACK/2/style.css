@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke);
+}
+.row{
+    margin-top: 150px;
+}
+h1{
+    font-size: 60px;
+    color: rgb(49, 49, 254);
+}
+input{
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+}
+.form{
+background-color: #fff;
+padding: 20px;
+border-radius: 10px;
+text-align: center;
+}
+a{
+    display: block;
+}
+.btn-primary{
+    padding: 5px 100px 5px 100px;
+}
+
+.btn-success{
+    display: inline;
+    text-align: center;
+}
